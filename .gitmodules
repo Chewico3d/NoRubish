@@ -1,0 +1,3 @@
+[submodule "NoRubish\\submodule\\spdlog"]
+	path = NoRubish\\submodule\\spdlog
+	url = https://github.com/gabime/spdlog.git
