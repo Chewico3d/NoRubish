@@ -23,7 +23,7 @@ project "NoRubish"
 	}
 
 	includedirs{
-		"%{prj.name}/submodule/spdlog/include"
+		"%{prj.name}/submodule/logspd/include"
 	}
 
 	filter "system:windows"
@@ -67,7 +67,7 @@ project "SandBox"
 	}
 
 	includedirs{
-		"NoRubish/submodule/spdlog/include",
+		"%{prj.name}/submodule/logspd/include",
 		"NoRubish/src"
 	}
 
