@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="NoRubish">
+      <UniqueIdentifier>{CF3F06A0-BB0C-61AB-E425-4F53D0519639}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\NoRubish.h" />
+    <ClInclude Include="src\NoRubish\Application.h">
+      <Filter>NoRubish</Filter>
+    </ClInclude>
+    <ClInclude Include="src\NoRubish\Core.h">
+      <Filter>NoRubish</Filter>
+    </ClInclude>
+    <ClInclude Include="src\NoRubish\EntryPoint.h">
+      <Filter>NoRubish</Filter>
+    </ClInclude>
+    <ClInclude Include="src\NoRubish\Log.h">
+      <Filter>NoRubish</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\NoRubish\Application.cpp">
+      <Filter>NoRubish</Filter>
+    </ClCompile>
+    <ClCompile Include="src\NoRubish\Log.cpp">
+      <Filter>NoRubish</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
